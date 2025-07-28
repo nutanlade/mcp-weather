@@ -34,8 +34,7 @@ mcp-weather/
 ├── weather_tool.py         # Main FastAPI + MCP logic
 ├── requirements.txt
 └── README.md
-
-
+```
 ---
 
 ## ⚙️ Setup Instructions
