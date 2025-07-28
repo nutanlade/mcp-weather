@@ -45,7 +45,7 @@ weather\_agent/
 ### 1. 🐍 Clone and Install
 
 ```bash
-git clone https://github.com/your-username/weather-agent-llm.git
+git clone https://github.com/nutanlade/mcp-weather.git
 cd weather-agent-llm
 python -m venv venv
 source venv/bin/activate
@@ -79,7 +79,7 @@ Visit `http://localhost:8000/chat` for chat UI, or explore `/docs` for Swagger U
 3. MCP agent triggers the right tool (e.g., `get_forecast`)
 4. Tool fetches forecast using NWS API and responds back
 
-![Architecture Diagram](https://github.com/your-username/weather-agent-llm/assets/architecture.png)
+![Architecture Diagram](https://github.com/nutanlade/mcp-weather/assets/architecture.png)
 
 > ⚠️ Replace with actual image or use the provided architecture diagram from this repo.
 
@@ -120,19 +120,8 @@ This project is licensed under the [Apache 2.0 License](LICENSE).
 
 ## 🙋‍♀️ Author
 
-Built with ❤️ by [Your Name](https://www.linkedin.com/in/your-profile)
+Built with ❤️ by Nutan Kumar Lade (https://www.linkedin.com/in/nutankumarlade/)
 
 Feel free to connect or contribute!
 
-```
-
----
-
-Would you like me to also generate:
-
-- ✅ `requirements.txt`  
-- ✅ `chat.html` sample  
-- ✅ A GitHub-ready folder you can download?
-
-Let me know!
 ```
