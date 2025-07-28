@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Chat</title>
+  <script src="https://unpkg.com/htmx.org"></script>
+  <style>
+    body { font-family: sans-serif; margin: 2rem; }
+    .chatbox { max-width: 600px; margin: auto; }
+    .message { margin: 1rem 0; }
+    input[type="text"] {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 0.5rem;
+    }
+    button {
+      padding: 8px 12px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="chatbox">
+    <h2>Weather Assistant</h2>
+    <form hx-post="/chat" hx-target="#response" hx-swap="beforeend">
+      <input type="text" name="prompt" placeholder="Ask me anything..." required />
+      <button type="submit">Submit</button>
+    </form>
+    <div id="response"></div>
+  </div>
+</body>
+</html>
