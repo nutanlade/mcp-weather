@@ -27,16 +27,14 @@ A beginner-friendly AI Agent project powered by [FastMCP](https://gofastmcp.com/
 
 ## 📁 Project Structure
 
-```
 
-weather\_agent/
+mcp-weather/
 ├── templates/
 │   └── chat.html           # Simple HTMX-based UI
-├── weather\_tool.py         # Main FastAPI + MCP logic
-├── README.md               # You're here!
-└── requirements.txt
+├── weather_tool.py         # Main FastAPI + MCP logic
+├── requirements.txt
+└── README.md
 
-````
 
 ---
 
@@ -46,11 +44,11 @@ weather\_agent/
 
 ```bash
 git clone https://github.com/nutanlade/mcp-weather.git
-cd weather-agent-llm
+cd mcp-weather
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-````
+```
 
 ### 2. 🦙 Start Ollama with LLaMA3
 
@@ -79,9 +77,7 @@ Visit `http://localhost:8000/chat` for chat UI, or explore `/docs` for Swagger U
 3. MCP agent triggers the right tool (e.g., `get_forecast`)
 4. Tool fetches forecast using NWS API and responds back
 
-![Architecture Diagram](https://github.com/nutanlade/mcp-weather/assets/architecture.png)
-
-> ⚠️ Replace with actual image or use the provided architecture diagram from this repo.
+![Architecture Diagram](https://github.com/nutanlade/mcp-weather/blob/master/assets/mcp-flow.png)
 
 ---
 
@@ -106,15 +102,9 @@ Visit `http://localhost:8000/chat` for chat UI, or explore `/docs` for Swagger U
 
 ## 🧠 Want to Learn More?
 
-* 👉 [FastMCP GitHub](https://github.com/lowink/fastmcp)
+* 👉 [FastMCP GitHub](https://github.com/jlowin/fastmcp)
 * 👉 [Ollama Documentation](https://ollama.com/library)
 * 👉 [NWS API Docs](https://www.weather.gov/documentation/services-web-api)
-
----
-
-## 📄 License
-
-This project is licensed under the [Apache 2.0 License](LICENSE).
 
 ---
 
