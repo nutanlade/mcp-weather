@@ -27,14 +27,15 @@ A beginner-friendly AI Agent project powered by [FastMCP](https://gofastmcp.com/
 
 ## 📁 Project Structure
 
-```
 
-weather\_agent/
+mcp_weather/
 ├── templates/
 │   └── chat.html           # Simple HTMX-based UI
-├── weather\_tool.py         # Main FastAPI + MCP logic
+├── weather_tool.py         # Main FastAPI + MCP logic
+├── main.py   
 ├── README.md               # You're here!
 └── requirements.txt
+
 
 ````
 
@@ -46,7 +47,7 @@ weather\_agent/
 
 ```bash
 git clone https://github.com/nutanlade/mcp-weather.git
-cd weather-agent-llm
+cd mcp-weather
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
